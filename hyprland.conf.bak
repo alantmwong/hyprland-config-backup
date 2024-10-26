@@ -19,7 +19,6 @@ monitor=DVI-I-2, 1920x1080, 0x0, 1
 monitor=DVI-I-1, 1920x1080, 1920x0, 1
 monitor=eDP-1, disable
 
-
 ###################
 ### MY PROGRAMS ###
 ###################
@@ -133,7 +132,8 @@ master {
 # https://wiki.hyprland.org/Configuring/Variables/#misc
 misc {
     force_default_wallpaper = -1 # Set to 0 or 1 to disable the anime mascot wallpapers
-    disable_hyprland_logo = false # If true disables the random hyprland logo / anime girl background. :(
+    disable_hyprland_logo = false # If true disables the random hyprland logo / anime girl background.
+    windowrule = opacity 0.7 0.7,^(kitty)$
 }
 
 
